@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-btn {
+  @apply text-lg font-semibold text-black bg-opacity-40 hover:bg-opacity-50 p-3 rounded-lg transition-colors duration-300 ease-in-out glass-effect;
+}
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+/* Disable text selection and copying */
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Disable right-click context menu */
+body {
+  -webkit-touch-callout: none;
+  -webkit-context-menu: none;
+  -moz-context-menu: none;
+  -ms-context-menu: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.secureLink {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+}
+
+.peenipeelo {
+  margin-top: 155px;
+}
